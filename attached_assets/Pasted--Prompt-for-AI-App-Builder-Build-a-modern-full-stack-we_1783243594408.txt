@@ -1,0 +1,186 @@
+# Prompt for AI App Builder
+
+Build a modern full-stack web application called Nestora** that helps small businesses improve their digital presence and customer experience.**
+
+The application must have **Role-Based Authentication** with two completely separate dashboards:
+
+## 1. Business Owner Portal (Admin Dashboard)
+
+Only business owners can access this dashboard after logging in.
+
+Features:
+
+* Business Profile Management
+* Edit company information, logo, address, contact details, working hours
+* Website customization
+* Product & Service Management
+* Add/Edit/Delete products and services
+* Upload product images
+* Manage pricing and stock
+* Create categories
+* Offer & Discount Management
+* Create festival offers
+* Flash sales
+* Coupons
+* Loyalty rewards
+* Schedule offers automatically
+* Order Management
+* View all customer orders
+* Update order status (Pending, Processing, Shipped, Delivered)
+* Analytics Dashboard
+* Total Sales
+* Monthly Revenue
+* Profit
+* Expenses
+* Customer Growth
+* Best Selling Products
+* Website Visitors
+* Marketing Dashboard
+* Social media post scheduler
+* Email campaign creator
+* SMS and WhatsApp campaign management
+* Customer Management
+* View customer list
+* Purchase history
+* Loyalty points
+* Customer feedback
+* Support Ticket Management
+* View customer complaints
+* Reply to customer queries
+* Business Reports
+* Download PDF/Excel reports
+
+**Only the Business Owner can view:**
+
+* Revenue
+* Profit
+* Expenses
+* Analytics
+* Employee data
+* Customer database
+* Marketing reports
+* Sales reports
+* Business settings
+
+Customers must NEVER be able to access this information.
+
+---
+
+## 2. Customer Portal
+
+Customers should have a clean, attractive interface.
+
+Features:
+
+* Sign Up / Login
+* Browse Products & Services
+* Search and Filter
+* View Product Details
+* Add to Cart
+* Place Orders
+* Track Orders in Real Time
+* View Current Offers and Discounts
+* Festival Deals
+* Coupon Codes
+* Loyalty Points
+* Reward History
+* Personalized Recommendations
+* Save Favorite Products
+* Chat with Business
+* Raise Support Tickets
+* Rate Products
+* Write Reviews
+* Receive Notifications
+* View Business Contact Details
+* Book Appointments (if service business)
+
+Customers must NOT see:
+
+* Profit
+* Revenue
+* Expenses
+* Sales Analytics
+* Customer List
+* Marketing Reports
+* Employee Information
+* Business Settings
+* Admin Dashboard
+
+---
+
+## Authentication
+
+Implement secure Role-Based Access Control (RBAC).
+
+Roles:
+
+* Owner (Admin)
+* Customer
+
+After login:
+
+* Owners are redirected to the Admin Dashboard.
+* Customers are redirected to the Customer Dashboard.
+
+Unauthorized users should never be able to access admin pages, even by typing URLs manually.
+
+---
+
+## Backend
+
+Use:
+
+* Node.js
+* Express.js
+* MongoDB
+* JWT Authentication
+* bcrypt Password Encryption
+
+Create APIs for:
+
+* Authentication
+* Products
+* Orders
+* Offers
+* Loyalty
+* Reviews
+* Analytics
+* Customer Support
+* Notifications
+
+Protect every admin API using JWT and role verification.
+
+---
+
+## Frontend
+
+Use:
+
+* React
+* Tailwind CSS
+* Responsive Design
+* Modern UI
+* Dark/Light Mode
+* Dashboard Charts
+* Notifications
+* Beautiful Landing Page
+
+---
+
+## Extra Features
+
+* AI chatbot for customer support
+* SEO-friendly business profile
+* Google Maps integration
+* QR Code for business profile
+* Email and SMS notifications
+* WhatsApp order updates
+* Customer feedback analytics
+* Personalized offers using AI
+* Multi-language support
+* Push notifications
+* Progressive Web App (PWA)
+
+The application should prioritize security, role-based access, fast performance, and an excellent customer experience while giving business owners complete control over their business data.
+
+  It should have items prices in indian rupees

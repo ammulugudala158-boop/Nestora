@@ -1,0 +1,2 @@
+- [Nestora JWT auth pattern](nestora-auth.md) — SESSION_SECRET must be set; server fails fast if absent; token in localStorage `nestora_token`; injected via custom-fetch.ts
+- [Nestora DB schema](nestora-schema.md) — 11 tables in lib/db/src/schema/; loyalty is 1 pt/₹100 earned, ₹0.50/pt redemption; orders.items stored as jsonb array
