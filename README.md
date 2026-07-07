@@ -1,5 +1,6 @@
-# Nestora
-AI-powered Multi Vendor Marketplace for Home-based Entrepreneurs
+#🏠 Nestora
+An AI-powered multi-vendor marketplace that empowers home-based entrepreneurs to showcase, sell, and manage their products online.
+
 ## Problem Statement
 
 Many talented homemakers struggle to sell their homemade products because they lack a digital platform to showcase their work.
@@ -60,4 +61,46 @@ Payments
 
 Deployment
 - Vercel
+  
+## Why Nestora?
 
+Nestora empowers homemakers by giving them an affordable digital marketplace where they can:
+
+- Sell homemade products
+- Manage inventory
+- Receive secure online payments
+- Track orders
+- Grow their business without technical knowledge
+
+##Architecture
+
+Customer
+      |
+Frontend (React)
+      |
+Node.JS + Express APT
+      |
+MongoDB Database
+      |
+Seller Dashboard
+
+## Installation
+
+git clone https://github.com/yourusername/Nestora.git
+
+cd Nestora
+
+npm install
+
+npm run dev
+
+## Team
+
+Team Name: Techtalk
+
+Members
+
+- Sridevi
+- Spoorthy
+- Komalini
+- Ushasri
