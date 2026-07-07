@@ -1,5 +1,5 @@
 #🏠 Nestora
-An AI-powered multi-vendor marketplace that empowers home-based entrepreneurs to showcase, sell, and manage their products online.
+An  multi-vendor marketplace that empowers home-based entrepreneurs to showcase, sell, and manage their products online.
 
 ## Problem Statement
 
@@ -10,7 +10,7 @@ Customers also find it difficult to discover trusted local homemade products.
 Nestora bridges this gap by providing a multi-vendor marketplace where homemakers can easily start their online business.
 ## Solution
 
-Nestora is an AI-powered multi-vendor marketplace that allows multiple home-based sellers to register, upload products, manage orders, track income, and receive payments.
+Nestora is an  multi-vendor marketplace that allows multiple home-based sellers to register, upload products, manage orders, track income, and receive payments.
 
 Customers can browse products, place orders, make secure payments, and track deliveries.
 ## Features
@@ -96,7 +96,7 @@ npm run dev
 
 ## Team
 
-Team Name: Techtalk
+Team Name: Hechtop
 
 Members
 
